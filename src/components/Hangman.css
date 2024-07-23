@@ -1,0 +1,53 @@
+/* Additional styling for the game */
+
+.hangman {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .hangman img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .hangman .word {
+    font-size: 2rem;
+    letter-spacing: 0.1em;
+    margin-bottom: 20px;
+  }
+  
+  .hangman .keyboard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .hangman .keyboard button {
+    padding: 10px 15px;
+    font-size: 1rem;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .hangman .keyboard button.guessed {
+    background-color: #6c757d;
+    cursor: not-allowed;
+  }
+  
+  .hangman .game-state {
+    margin-top: 20px;
+  }
+  
+  .hangman .game-state img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .hangman button {
+    margin: 5px;
+  }
+  
